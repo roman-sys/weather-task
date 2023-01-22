@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Current weather{% endblock %}
+
+{% block body %}
+    
+    <h1>Current Temperature</h1>
+    {{ form_start(form)}}
+    	<div>
+    	 	{{form_errors(form)}} 
+    	</div>
+	{{form_end(form)}}
+	{{current_weather_show}}
+{% endblock %}
