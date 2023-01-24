@@ -8,10 +8,6 @@ Few notes:
 
 - please implement proper error handling
 
-- results should be stored in the database
-
-- a simple caching mechanism should be added
-
 - ability to easily add new data sources (how to register them, interfaces etc.)
 
 - clean data separation
